@@ -7,5 +7,13 @@ body {
 }
 
 
-    
-    
+.media {
+    background-color: black;
+    height: 60px;
+    position: relative;
+    color: gainsboro;
+}
+
+.socmedia {
+    display:inline-block;
+}
