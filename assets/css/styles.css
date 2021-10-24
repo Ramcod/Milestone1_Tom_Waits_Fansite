@@ -1,13 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&family=Zen+Old+Mincho&display=swap');
+
+
 
 body {
-  background-image: url('https://pbs.twimg.com/media/D-AM9k2U4AAi-uM.jpg');
-  font-family: 'Mukta', sans-serif;
-  background-repeat: no-repeat;
-  background-size: cover;  
-}
+  margin:0;
+  font-family: 'Noticia Text', serif;
+  font-family: 'Zen Old Mincho', serif;
+ }
+  
 .header {
-  background-color:goldenrod;
+  padding: 5px 45px;
+  background-color: lightslategray;
+  border: solid 2px black;
+  opacity: 0.6;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.nav a:hover {
+  color: darkred;
+  background-color:blanchedalmond;
+}
+.nav {
+  list-style: none;
+  margin:0;
+  padding:0;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 25px;
+}
+
+.hero {
+  background-image: url("https://pbs.twimg.com/media/D-AM9k2U4AAi-uM.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-color:antiquewhite;
+  min-height: 1000px;
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.who {
+  background-color: ghostwhite;
+  opacity: 0.5;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  height: 300px;
+  margin: 20px 20px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.dates {
+  background-color: ghostwhite;
+  opacity: 0.5;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap:wrap;
+  max-width: 400px;
+  height: 300px;
+  margin: 20px 20px;
+  padding: 5px 10px;
+  text-align: center;
+  overflow:scroll;
 }
 
 
+
+.footer {
+  background-color: lightslategray;
+  opacity: 0.6;
+  color:black;
+  text-align: center;
+  border: 2px solid black;
+  padding: 6px 6px;
+  margin: 0 0 30px;
+  color: #000;
+  
+  display: flex;
+}
+
+.social {
+  color: black;
+  justify-content: space-between;
+  list-style-type: none;
+  display:flex;
+  font-size: 40px;
+  margin: 2px 10px 20px 20px;
+}
+
+
+.footer .social a:hover {
+  color:aqua;
+}
+
+
+.live {
+  background-color: gainsboro;
+  opacity: 0.8;
+  padding: 30px 30px 30px 30px;
+ display: grid;
+ grid-template-columns: 33% 33% 33%;
+ margin: 20px 30px 0 40px;
+grid-row-gap: 20px;
+grid-column-gap: 50px;
+max-width: 90%;
+}
+   
+.info {
+  background-color: gainsboro;
+  opacity: 0.8;
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+  max-width: 90%;
+   margin: 20px 40px 20px 40px;
+  border: solid 2px black;
+}
