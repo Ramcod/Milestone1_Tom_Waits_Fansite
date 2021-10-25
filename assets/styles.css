@@ -63,7 +63,7 @@ body {
 
 
 .who {
-  background-color: ghostwhite;
+  background-color: antiquewhite;
   opacity: 0.5;
   border: 1px solid black;
   display: flex;
@@ -76,7 +76,7 @@ body {
 }
 
 .dates {
-  background-color: ghostwhite;
+  background-color: antiquewhite;
   opacity: 0.5;
   border: 1px solid black;
   display: flex;
