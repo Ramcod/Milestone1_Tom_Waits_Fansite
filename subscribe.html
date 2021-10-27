@@ -2,108 +2,105 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tom Live</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap" rel="stylesheet">
-	<link href="assets/styles.css"   rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-
-			<div class="header">
-				<h1>TOM WAITS</h1>
-				<ul class="nav">
-					<li><a href="index.html">Home</a>
-						<li>
-							<li><a href="toms_discs.html">Tom's Discs</a>
-								<li>
-									<li><a href="tom_live.html">Tom Live</a>
-										<li>
-											<li><a href="subscribe.html">Subscribe</a>
-												<li>
-				</ul>
-        </div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tom Live</title>
+  <link href="assets/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
- 
-<div class="lead">
-<h2>Subscribe For Tom Updates</h2>To get the latest news and to hear about releases and show, then just sign up!</p>
+<body>
+  <header class="header">
+    <h1>TOM WAITS</h1>
+    <ul class="nav">
+      <li><a href="index.html">Home</a>
+      </li>
+      <li><a href="toms_discs.html">Tom's Discs</a>
+      </li>
+      <li><a href="tom_live.html">Tom Live</a>
+      </li>
+      <li><a href="subscribe.html">Subscribe</a>
+      </li>
+    </ul>
+  </header>
+
+
+  <aside class="lead">
+    <h2>Subscribe For Tom Updates</h2>To get the latest news and to hear about releases and show, then just sign up!</p>
+  </aside>
+  <main class="container">
+    <form>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Favourite Song "optional"</label>
+        </div>
+        <div class="col-75">
+          <select id="fave" name="fave">
+            <option value="pleaseselect">Please Select</option>
+            <option value="16shells">16 Shells From a 30 Ought Six</option>
+            <option value="steprightup">Step Right Up</option>
+            <option value="chocolatejesus">Chocolate Jesus</option>
+            <option value="heartattackandvine">HeartAttack and Vine</option>
+            <option value="intheneighbourhood">In The Neighbourhood</option>
+            <option value="coldcoldground">Cold Cold Ground</option>
+            <option value="time">Time</option>
+            <option value="unionsquare">Union Square</option>
+            <option value="blindlove">Blind Love</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Message</label>
+        </div>
+        <div class="col-75">
+          <textarea id="message" name="message" placeholder="Leave some nice words.." required></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </main>
+  <div class="footer">
+    <ul class="social">
+      <li><a href="https://www.facebook.com/tomwaits" target="_blank"><i class="fab fa-facebook-square"></i></li></a>
+
+      <li><a href="https://twitter.com/tomwaits" target="_blank"><i class="fab fa-twitter-square"></i></li></a>
+
+      <li><a href="https://www.youtube.com/channel/UCba292MOfMp_6kCO9qjVJAA" target="_blank"><i
+            class="fab fa-youtube"></i></li></a>
+
+      <li><a href="https://open.spotify.com/artist/7x83XhcMbOTl1UdYsPTuZM" target="_blank"><i
+            class="fab fa-spotify"></i></li></a>
+    </ul>
   </div>
-<div class="container">
-  <form action="/process_page.php">
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">First Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="First Name">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Last Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Last Name">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="email">Email</label>
-      </div>
-      <div class="col-75">
-        <input type="email" id="email" name="email" placeholder="Your Email Address">
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-25">
-        <label for="country">Favourite Song</label>
-      </div>
-      <div class="col-75">
-        <select id="fave" name="fave">
-          <option value="pleaseselect">Please Select</option>
-          <option value="16shells">16 Shells From a 30 Ought Six</option>
-          <option value="steprightup">Step Right Up</option>
-          <option value="chocolatejesus">Chocolate Jesus</option>
-          <option value="heartattackandvine">HeartAttack and Vine</option>
-          <option value="intheneighbourhood">In The Neighbourhood</option>
-          <option value="coldcoldground">Cold Cold Ground</option>
-          <option value="time">Time</option>
-          <option value="unionsquare">Union Square</option>
-          <option value="blindlove">Blind Love</option>
-        </select>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Message</label>
-      </div>
-      <div class="col-75">
-        <textarea id="message" name="message" placeholder="Leave some nice words.." style="height:150px"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <input type="submit" value="Submit">
-    </div>
-  </form>
-</div>
-</section>
- <div class="footer">
-        <ul class="social">
-            <li><a href="https://www.facebook.com/tomwaits" target="_blank"><i class="fab fa-facebook-square"></i></li></a>
 
-            <li><a href="https://twitter.com/tomwaits" target="_blank"><i class="fab fa-twitter-square"></i></li></a>
-
-            <li><a href="https://www.youtube.com/channel/UCba292MOfMp_6kCO9qjVJAA" target="_blank"><i class="fab fa-youtube"></i></li></a>
-
-            <li><a href="https://open.spotify.com/artist/7x83XhcMbOTl1UdYsPTuZM"  target="_blank"><i class="fab fa-spotify"></i></li></a>
-            </ul>
-    </div>
-  
   <script src="https://kit.fontawesome.com/3982258271.js"></script>
- </body> 
+</body>
+
 </html>
-    
