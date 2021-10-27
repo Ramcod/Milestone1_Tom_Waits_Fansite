@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&family=Zen+Old+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
 
 body {
   font-family: 'Zen Old Mincho', serif;
@@ -14,7 +14,6 @@ body {
   padding: 5px 45px;
   background-color: lightslategray;
   border: solid 2px black;
-  opacity: 0.6;
   color: #000;
   display: flex;
   justify-content: space-between;
@@ -48,7 +47,6 @@ body {
 
 .hero {
   background-color: antiquewhite;
-  opacity: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: antiquewhite;
@@ -67,7 +65,6 @@ body {
 
 .who {
   background-color: antiquewhite;
-  opacity: 0.5;
   border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +77,6 @@ body {
 
 .dates {
   background-color: antiquewhite;
-  opacity: 0.5;
   border: 1px solid black;
   display: flex;
   align-items: flex-end;
@@ -97,7 +93,6 @@ body {
 
 .live {
   background-color: gainsboro;
-  opacity: 0.8;
   padding: 30px 30px 30px 30px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -109,7 +104,6 @@ body {
 
 .info {
   background-color: gainsboro;
-  opacity: 0.8;
   padding: 30px 30px 30px 30px;
   text-align: center;
   max-width: 90%;
@@ -119,7 +113,6 @@ body {
 
 .albums {
   background-color: gainsboro;
-  opacity: 0.8;
   padding: 20px 20px;
   display: grid;
   grid-template-columns: 24% 38% 36%;
@@ -219,7 +212,6 @@ form {
 
 .footer {
   background-color: lightslategray;
-  opacity: 0.6;
   color: black;
   text-align: center;
   border: 2px solid black;
