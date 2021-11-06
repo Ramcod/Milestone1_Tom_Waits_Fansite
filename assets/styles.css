@@ -58,6 +58,7 @@ body {
 .container {
   display: flex;
   justify-content: space-between;
+  max-width: 100%;
 }
 
 
@@ -180,6 +181,7 @@ input[type=submit]:hover {
   opacity: 0.8;
   padding: 20px;
   margin: 5px 5px;
+  max-width:100%;
 
 }
 
@@ -215,6 +217,7 @@ form {
   border: 2px solid black;
   padding: 6px 6px;
   display: flex;
+  width:100%;
 }
 
 .fab {
@@ -229,7 +232,7 @@ form {
 
 .social {
   color: black;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none;
   display: flex;
   font-size: 40px;
