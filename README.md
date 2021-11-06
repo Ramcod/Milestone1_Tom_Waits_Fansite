@@ -72,7 +72,7 @@
 
 - To test each CSS3 file I used https://jigsaw.w3.org/css-validator/ which provided me with where errors occured and helped me to pinpoint correcting them.
 
-
+-After initial testing of the site there were 2 main issues in the responsiveness and the contrast on a lot of the body text. The body text was corrected by removing the opacity on all sections. To fix the responsiveness I used Bootstrap v4.6 to construct classes that would collapse or grow between smaller and larger devices.
 
 ### Testing From User Experience (UX) Section
 
@@ -129,3 +129,4 @@ For example, you can use forks to propose changes related to fixing a bug. Rathe
 
 - https://htmlcheatsheet.com/ really helps as a bright visual revision tool and you can even try things out in there.
 
+- https://getbootstrap.com/docs/4.6/getting-started/introduction/ which has really been useful in getting the site to be more responsive whilst still allowing me to put in my own creative elements to the site.

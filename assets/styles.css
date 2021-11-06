@@ -53,12 +53,12 @@ nav a:hover {
   overflow:scroll;
 }
 .card {
-  margin: 6px 40px;
+  margin: 6px 10px 6px 40px;
   background-color: gainsboro;
   border: solid 1px black;
   width:420px;
   display:inline-block;
-  padding:20px;
+  padding:10px;
 }
 
 footer{
