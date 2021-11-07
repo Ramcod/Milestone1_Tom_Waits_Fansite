@@ -1,8 +1,8 @@
 header {
-  background-color:goldenrod;
+  background-color: goldenrod;
   text-align: center;
-  height:100px;
-  padding:20px;
+  height: 100px;
+  padding: 20px;
   margin: 0 auto;
   border: solid 1px black;
 }
@@ -22,11 +22,13 @@ nav a {
   padding: 20px 0;
   margin: 0 5px;
 }
+
 nav a:hover {
-  border-top: 2px solid  lightsteelblue;
-  border-bottom: 2px solid  lightsteelblue;
-  padding: 6px 0; 
+  border-top: 2px solid lightsteelblue;
+  border-bottom: 2px solid lightsteelblue;
+  padding: 6px 0;
 }
+
 .who {
   border: solid 1px black;
   text-align: center;
@@ -37,54 +39,56 @@ nav a:hover {
 .news {
   background-color: gray;
   margin: 0 auto;
-  text-align:center;
-  height:600px;
-  overflow:scroll;
+  text-align: center;
+  height: 600px;
+  overflow: scroll;
   border: solid 1px black;
 }
 
 .blockquote {
   background-color: gray;
-  margin:0 auto;
-  text-align:center;
-  height:600px;
+  margin: 0 auto;
+  text-align: center;
+  height: 600px;
   border: solid 1px black;
   font-size: 1.1rem;
-  overflow:scroll;
+  overflow: scroll;
 }
+
 .card {
   margin: 6px 10px 6px 40px;
   background-color: gainsboro;
   border: solid 1px black;
-  width:420px;
-  display:inline-block;
-  padding:10px;
+  width: 420px;
+  display: inline-block;
+  padding: 10px;
 }
 
-footer{
-    height: 100px;
-    background-color: gray;
-    border: solid 1px black;
+footer {
+  height: 100px;
+  background-color: gray;
+  border: solid 1px black;
 }
 
-.social-networks{
-    text-align: center;
+.social-networks {
+  text-align: center;
 }
 
-.social-networks li{
-    display: inline;
-    color:black;
+.social-networks li {
+  display: inline;
+  color: black;
 }
 
-.social-networks i{
-    font-size: 180%;
-    margin: 1%;
-    padding: 16px 10px;
-    color:black;
+.social-networks i {
+  font-size: 180%;
+  margin: 1%;
+  padding: 16px 10px;
+  color: black;
 }
+
 .social-networks a:hover {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
-  color:antiquewhite;
-  padding: 6px 0; 
+  color: antiquewhite;
+  padding: 6px 0;
 }
