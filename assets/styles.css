@@ -56,15 +56,16 @@ nav a:hover {
 }
 
 .card {
-  margin: 6px 10px 6px 40px;
+  margin: 6px 10px 6px 6px;
   background-color: gainsboro;
   border: solid 1px black;
   width: 420px;
   display: inline-block;
   padding: 10px;
 }
-
-
+form {
+  margin-left: 10px;
+}
 footer {
   height: 100px;
   background-color: gray;
