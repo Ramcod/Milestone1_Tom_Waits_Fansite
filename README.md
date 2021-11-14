@@ -32,7 +32,7 @@
 
 #### - Colour Scheme
 
-- I have used ---- for the navbar and footer and 'Goldenbar' for the 
+- I have used bg-dark navbar-dark (Bootstrap 4.6) for the navbar. a colour of 'Gray' for the footer which contains FontAwesome social media buttons. I chose 'Goldenrod' for outlining paragraph text.
  
 #### - Typography
 
@@ -40,7 +40,7 @@
 
 #### - Imagery
 
-- There are a number of very striking shots available for Tom Waits but not all of them were of a suitable size or resolution. Choosing the B & W shot of him for the hero image on the Home Page, represented what I wanted the site to be about and reflected his music quite well.
+- There are a number of very striking shots available for Tom Waits but not all of them were of a suitable size or resolution. Choosing the B & W shot of him for the hero image on the Home Page, represented what I wanted the site to be about and reflected his music quite well. All of the images used are stored in the repo- /workspace/Milestone1_Tom_Waits_Fansite/assets
 
 ### - Wireframes
 
@@ -56,6 +56,14 @@
 - Responsive. I have had issues with that element of the site but now using Bootstrap v4.6 to resolve the issues.
 
 ## Technologies Used
+
+I have used;
+
+- Github
+- Gitpod
+- Bootstrap v4.6
+- CodePen to trial different looks and functionality
+
 
 ### Languages Used
 
@@ -88,6 +96,12 @@
 
 ### Testing From User Experience (UX) Section
 
+-User feedback from colleagues has been positive since the responsiveness issues have been sorted but there were some comments on the follwoing which I have since corrected;
+
+- Some of the spacing of paragraphs was a little close to the edge of the page and so the padding was looked at and corrected in each case.
+
+- The color scheme was too dull for one user who had colour vision issues and so a brighter scheme was chosen to compensate.
+
 
 ### Further Testing
 
@@ -97,7 +111,7 @@
 
 - There have been issues with getting the HTML files to load the CSS and I have checked the file path names on numerous attempts. All files have been validated through the W3C Validation Service.
 
-- There are issues with the responsive of the design which still requires further work as of 25/10/2021.
+- There are issues with the responsive of the design which still requires further work as of 25/10/2021. As of 4th November all files are now responsive owing to utilising the repsonsive Bootstrap classes.
 
 ## Deployment
 
@@ -143,3 +157,7 @@ For example, you can use forks to propose changes related to fixing a bug. Rathe
 - https://htmlcheatsheet.com/ really helps as a bright visual revision tool and you can even try things out in there.
 
 - https://getbootstrap.com/docs/4.6/getting-started/introduction/ which has really been useful in getting the site to be more responsive whilst still allowing me to put in my own creative elements to the site.
+
+- The video tuition of Code Institute
+
+- There are various sources of content online and with some text books I have been reading and I plan to change my approach slightly for milestone 2, which will enable me to experiment more and consolidate my knowledge.
