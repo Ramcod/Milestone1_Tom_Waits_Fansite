@@ -14,19 +14,29 @@
 
 ### - Returning and Frequent Visitor Goals
 
-- I would like returning visitors and frequent users be able to input ideas on the comments section of the subscribe page. It may take the eventual form of a forum and would give users the opportunity of sharing their own news of any forthcoming events or releases.
+- I would like returning visitors and frequent users to be able to input ideas on the comments section of the subscribe page. It may take the eventual form of a forum and would give users the opportunity of sharing their own news of any forthcoming events or releases.
 
 - I would like to share the opportuntiy for contributors to create a newsletter to be shared with subscribers on a quarterly basis.
 
 ### -Design
 
+- I have used Bootstrap v4.6 to support the design of the navbar and social media links. Each page is responsive and I have chosen slightly different themes for each page but stayed with the same colour schemes on each. I have chosen a font that I feel represents some of Tom Waits' work. The navbar and footer with social media buttons are consistent throughout each sheet.
+
+- For the 'Home page' I used a jumbotron to give an insight into the artists' work and a suitable hero image. I also chose to have two columns hosting news updates, and the other with his quotes. As the news stream will be updated constantly, I have incorporated a scroll for the overflow.
+
+- For the 'Tom's Discs' page I used Bootstrap cards which allowed me to insert pictures of the albums and a mini review of each. I wanted to have 2 rows of 3 columns in desktop view which would shrink down to one row on mobile. After the reviews there is a button that once selected, will take you to a wikipedia page on that album.
+
+- For the 'Tom Live' page I wanted to give some full width previews of old footage which was embedded from YouTube and gives the site user a great example of Tom's finest live work.
+
+- The 'Subscribe' page gives users the opportunity to sign up for a newsletter. The subscribe button takes you to another Tom Waits page and so is for demonstration purposes to show the button works at the moment.
+
 #### - Colour Scheme
 
-- Backgrounds are Antique White with Light Slate Gray for the navbar and footer sections. I have gone with these colours as I wanted a grainy feel to the site and have paired that with a black and white hero shot on the Home page.
+- I have used ---- for the navbar and footer and 'Goldenbar' for the 
  
 #### - Typography
 
--  Black fonts are throughout and the font family is : 'Noticia Text', serif; 'Zen Old Mincho', serif;which have been taken from Google fonts. 
+-  Black fonts are throughout and the font family is : 'Azerat Mono', monospace; which have been taken from Google fonts. I felt that they suited the type of artist that Tom Waits is and reflects some of the work that he has previously completed.
 
 #### - Imagery
 
@@ -43,7 +53,7 @@
 ## Features
 
 - Interactive elements where you can view album covers close up and click to watch YouTube videos of old recordings.
-- Responsive. I have had issues with that element of the site but hope to get all pages resolved shortly.
+- Responsive. I have had issues with that element of the site but now using Bootstrap v4.6 to resolve the issues.
 
 ## Technologies Used
 
@@ -64,13 +74,15 @@
 
 -Balsamiq | https://balsamiq.com/ This site enables you to create Wireframes at the point of inception and you can share projects based on different price plans. This therefore allows collaborative working in the design process.
 
+-Bootstrap v4.6 | This library has helped me to make my site responsive and understand the importance of mobile first design. I have used this througout the design process.
+
 ## Testing
 
 - At the start of the project I encountered a lot of issues with GitPod and GitHub. I was unable to Git Push and I had also made some mistakes in the terminal when putting in commands. I found that by revisiting the training modules that I was able to get a better understanding of some of the bugs that sometimes occured and how to best use the command line.
 
 - To test each HTML5 file I used https://validator.w3.org/ which provided me with where errors occured and helped me to pinpoint correcting them.
 
-- To test each CSS3 file I used https://jigsaw.w3.org/css-validator/ which provided me with where errors occured and helped me to pinpoint correcting them.
+- To test the CSS3 file I used https://jigsaw.w3.org/css-validator/ which provided me with where errors occured and helped me to pinpoint correcting them.
 
 -After initial testing of the site there were 2 main issues in the responsiveness and the contrast on a lot of the body text. The body text was corrected by removing the opacity on all sections. To fix the responsiveness I used Bootstrap v4.6 to construct classes that would collapse or grow between smaller and larger devices.
 
@@ -79,6 +91,7 @@
 
 ### Further Testing
 
+- I have asked colleagues to visit the site on both laptop and mobile to ensure that each feature works and that the site is viewable for each device. They have reported no bugs and that all of the expected functionality is there.
 
 ### Known Bugs
 
