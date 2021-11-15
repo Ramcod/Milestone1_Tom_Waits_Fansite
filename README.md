@@ -138,7 +138,15 @@ For example, you can use forks to propose changes related to fixing a bug. Rathe
 
 - To make a clone on your PC, in case of any issues online, you can follow this set of instructions that guides you visually through the process.
 
-    * https://docs.github.com/en/get-started/quickstart/fork-a-repo
+    * ### Local Deployment
+
+If you would like to make a clone of this repository, you can type the following command in your IDE terminal:
+
+- `git clone https://github.com/Ramcod/Milestone1_Tom_Waits_Fansite.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ramcod/Milestone1_Tom_Waits_Fansite)
 
 ### Content
 

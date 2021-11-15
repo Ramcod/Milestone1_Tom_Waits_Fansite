@@ -1,20 +1,20 @@
 header {
   background-color: goldenrod;
   text-align: center;
-  height: 100px;
+  height: auto;
   padding: 20px;
   margin: 0 auto;
-  border: solid 1px black;
 }
 
 body {
   background-color: goldenrod;
   margin: 0 auto;
   font-family: 'Azeret Mono', monospace;
+  color: black;
 }
 
 nav a {
-  background: goldenrod;
+  background: black;
   font-size: 20px;
   text-decoration: none;
   border-top: 4px solid transparent;
@@ -38,22 +38,20 @@ nav a:hover {
 
 .news {
   background-color: gray;
-  margin: 0 auto;
+  margin: 0px 2px 4px 4px;
   text-align: center;
-  height: 600px;
-  overflow: scroll;
+  height: auto;
   border: solid 1px black;
   padding: 2px 2px;
 }
 
 .blockquote {
   background-color: gray;
-  margin: 0 auto;
+  margin-right:4px;
+  font-size: 1rem;
   text-align: center;
-  height: 600px;
+  height: auto;
   border: solid 1px black;
-  font-size: 1.1rem;
-  overflow: scroll;
   padding: 2px 2px;
 }
 
@@ -65,9 +63,23 @@ nav a:hover {
   display: inline-block;
   padding: 10px;
 }
-
+.subscribe {
+  margin-left:100px;
+  margin-right: 2px;
+  padding: 10px 10px;
+}
 form {
   margin-left: 10px;
+}
+button {
+  background-color:black;
+  color: white;
+  border: solid 1px orangered;
+  margin: 2px 2px;
+  padding: 1px 1px;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
 }
 
 footer {
