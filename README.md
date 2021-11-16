@@ -152,6 +152,8 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 - All content was created by Richard Martin
 
+- Subscribe form was influenced by and adapted from https://www.w3schools.com/howto/howto_css_responsive_form.asp
+
 ### Media
 
 - All images were taken from various locations across Google Chrome
