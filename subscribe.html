@@ -8,7 +8,7 @@
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
   <title>Subscribe</title>
 </head>
 
@@ -41,70 +41,80 @@
       </ul>
     </div>
   </nav>
-
-  <!-- form inputs -->
-
-
-
-  <div class="container">
-    <h1>Subscribe to Tom's Updates</h1>
-    <p>"Tom Waits is a polarizing artist. To some people, he’s one of the greatest songwriters of the last half century.
-      A true poet and storyteller of the rock and roll era. An ageless artist who has endured without diminishing for
-      four decades. One of modern music’s most unique, most thunderous characters.
-      Or he’s a pretentious, overrated phony with a fedora and soul patch who imitates bad jazz music for white people
-      who don’t actually like jazz music.
-      Although I know a lot of fellow Tom Waits fans, I know even more who “want” to like Tom Waits. He’s not a guy with
-      traditional hits, so knowing where to dive in can be a challenge. Hopefully this will give you enough of a
-      framework to get started."
-    </p><br>
-    <form>
-      <div class="form-group has-success">
-        <label for="fname">First Name</label>
-        <input type="fname" class="form-control" id="fname" placeholder="Your First Name" required>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="sub">
+        <h3 class="display-6">Subscribe to all the latest Tom news!</h3>
+        <p class="lead">By subscribing, you will receive all of the latest news on Tom's films, tours, album releases,
+          or one of his amazing facts!</p>
+        <hr class="my-6">
+        <p><strong><em>Just fill out your details and check your inbox every month</em></strong></p>
+        <img class="img-fluid" src="https://sfae.com/getattachment/730a1bfc-58df-4b33-82b4-dc39a4f938d4/600"
+          alt="Tom Waits">
       </div>
-      <div class="form-group has-success">
-        <label for="lname">Last Name</label>
-        <input type="lname" class="form-control" id="lname" placeholder="Your Last Name" required>
-      </div>
-      <div class="form-group has-warning">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" placeholder="Your Email Address" required>
-      </div>
-
-      <div class="form-group">
-        <label for="Inputselect">Your favourite Tom song is?</label>
-        <select class="form-control">
-          <option>Please select your choice...</option>
-          <option>Cold Cold Ground</option>
-          <option>Come On Up To The House</option>
-          <option>Dirt In The Ground</option>
-          <option>Heartattack and Vine</option>
-          <option>House Where Nobody Lives</option>
-          <option>In The Neighbourhood</option>
-          <option>Johnsburg, Illinois</option>
-          <option>Rain Dogs</option>
-          <option>Step Right Up</option>
-          <option>Tom Traubert’s Blues (Four Sheets to the Wind in Copenhagen)</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="Inputselect">Your favourite Tom film is?</label>
-        <select class="form-control">
-          <option>Please select your choice...</option>
-          <option>Coffee and Cigarettes</option>
-          <option>Down By Law</option>
-          <option>Dracula</option>
-          <option>Ironweed</option>
-          <option>Mystery Men</option>
-          <option>One From The Heart</option>
-          <option>Seven Psychopaths</option>
-          <option>Shortcuts</option>
-          <option>Wristcutters: A Love Story</option>
-        </select>
-      </div>
+    </div>
   </div>
-  <button onClick="window.location.href=window.location.href">Subscribe</button>
-  </form>
+  <!-- form inputs -->
+  <div class="container">
+    <form>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="fname" placeholder="Your first name is.." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lname" placeholder="Your last name is.." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="email" name="email" placeholder="Your email address is.." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="fave">Your favourite Tom song is</label>
+        </div>
+        <div class="col-75">
+          <select id="fave" name="fave">
+            <option value="please select...">Please select...</option>
+            <option value="16 shells from a 30 'ought 6">16 shells from a 30 'ought 6</option>
+            <option value="Bad liver and a broken heart">Bad liver and a broken heart</option>
+            <option value="Cold cold ground">Cold cold ground</option>
+            <option value="Down, down, down">Down, down, down</option>
+            <option value="Heartattack and vine">Heartattack and vine</option>
+            <option value="House where nobody lives">House where nobody lives</option>
+            <option value="In the neighbourhood">In the neighbourhood</option>
+            <option value="Martha">Martha</option>
+            <option value="Step right up">Step right up</option>
+            <option value="Tom Traubert's blues">Tom Traubert's blues</option>
+            <option value="What's he building in there?">What's he building in there?</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Leave a message</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something nice.."></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" class="btn btn-dark" value="Subscribe">
+      </div>
+    </form>
+  </div>
   <!-- Social/links -->
   <footer>
     <ul class="social-networks">
