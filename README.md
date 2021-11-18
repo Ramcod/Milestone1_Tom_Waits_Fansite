@@ -1,6 +1,6 @@
 # The Tom Waits Fansite
 
-## Miletone 1 Project by Richard Martin
+## Milestone 1 Project by Richard Martin
 
 ### The site has been designed as a place where Tom Waits fans can enjoy the latest news and watch, or listen to, recordings. It is designed for those who are familiar with his work or those who have never come across him before
 
@@ -44,11 +44,11 @@
 
 ### - Wireframes
 
--Home Page Wireframe-https://balsamiq.cloud/svzhrv4/p2qylhv/rAB27
+-Home Page iPad Wireframe ![alt text](image.jpg)
 
--Mobile Wireframe-https://balsamiq.cloud/svzhrv4/p2qylhv/r2278
+-Home Page Mobile Wireframe-
 
--Subscribe Wireframe- https://balsamiq.cloud/svzhrv4/p2qylhv/r9311
+-Subscribe Wireframe- 
 
 ## Features
 
