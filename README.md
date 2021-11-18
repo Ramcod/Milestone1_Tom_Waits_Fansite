@@ -44,7 +44,7 @@
 
 ### - Wireframes
 
--Home Page iPad Wireframe ![alt text](image.jpg)
+![alt text](documentation/project_assets/homepage_wireframe_for_ipad.png)
 
 -Home Page Mobile Wireframe-
 
