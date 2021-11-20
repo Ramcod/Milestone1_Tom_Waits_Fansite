@@ -2,15 +2,21 @@
 
 ## Milestone 1 Project by Richard Martin
 
-### The site has been designed as a place where Tom Waits fans can enjoy the latest news and watch, or listen to, recordings. It is designed for those who are familiar with his work or those who have never come across him before
+### The site has been designed as a place where Tom Waits fans can enjoy the latest news and watch, or listen to, recordings. It is designed for those who are familiar with his work or those who have never come across him before.
 
 ## User Experience (UX)
 
 ### - First Time Visitor Goals
 
-- The aim of the site is for users who have not encountered Tom Waits before, to get a clearly mapped out experience that would enable them to easily navigate between pages and to be able to intuitively visit the review sections and to watch video recordings.
+- The aim of the site is for users who have not encountered Tom Waits, to get a clearly mapped out experience that would enable them to easily navigate between pages and to be able to intuitively visit the review sections and to watch video recordings.
 
 -  With a great user experience I would hope that people would then fill out the subscribe form which would enable them to keep updated on the news feed. If they didn't it may be that they don't like Tom Waits, rather than my website!
+
+- I decided to use this great black and white image to see the man behind the voice.
+
+- Home page hero image
+
+ ![Tom Waits hero image](assets/images/hero.jpg)
 
 ### - Returning and Frequent Visitor Goals
 
@@ -24,15 +30,15 @@
 
 - For the 'Home page' I used a jumbotron to give an insight into the artists' work and a suitable hero image. I also chose to have two columns hosting news updates, and the other with his quotes. As the news stream will be updated constantly, I have incorporated a scroll for the overflow.
 
-- For the 'Tom's Discs' page I used Bootstrap cards which allowed me to insert pictures of the albums and a mini review of each. I wanted to have 2 rows of 3 columns in desktop view which would shrink down to one row on mobile. After the reviews there is a button that once selected, will take you to a wikipedia page on that album.
+- For the 'Tom's Discs' page I used Bootstrap cards which allowed me to insert pictures of the albums and a mini review of each. I decided on a row for each card to appreciate the artwork of the album, and which would stll look good on mobile. After the reviews there is a button that once selected, will take you to a wikipedia page on that album.
 
 - For the 'Tom Live' page I wanted to give some full width previews of old footage which was embedded from YouTube and gives the site user a great example of Tom's finest live work.
 
-- The 'Subscribe' page gives users the opportunity to sign up for a newsletter. The subscribe button takes you to another Tom Waits page and so is for demonstration purposes to show the button works at the moment.
+- The 'Subscribe' page gives users the opportunity to sign up for a newsletter. The subscribe button will refresh the page and so is for demonstration purposes to show the button works at the moment.
 
 #### - Colour Scheme
 
-- I have used bg-dark navbar-dark (Bootstrap 4.6) for the navbar. a colour of 'Gray' for the footer which contains FontAwesome social media buttons. I chose 'Goldenrod' for outlining paragraph text.
+- I have used bg-dark navbar-dark (Bootstrap 4.6) for the navbar, a colour of 'Gray' for the footer which contains FontAwesome social media buttons. I chose 'Goldenrod' for outlining paragraph text.
  
 #### - Typography
 
@@ -44,16 +50,35 @@
 
 ### - Wireframes
 
-![alt text](documentation/project_assets/homepage_wireframe_for_ipad.png)
+-Wireframe for the subscribe page
 
--Home Page Mobile Wireframe-
+ ![Moto 4](documentation/project_assets/wireframe_subscribe_page.png)
+
+
+-Wireframe for the Homepage on iPad
+
+ ![Homepage on iPad](documentation/project_assets/homepage_wireframe_for_ipad.png)
+
 
 -Subscribe Wireframe- 
+
+Wireframe for the tom_live page on mobile
+
+ ![tom_live mobile](documentation/project_assets/wireframe_tom_live.png)
 
 ## Features
 
 - Interactive elements where you can view album covers close up and click to watch YouTube videos of old recordings.
-- Responsive. I have had issues with that element of the site but now using Bootstrap v4.6 to resolve the issues.
+
+- Responsive. I have had issues with that element of the site but now using Bootstrap v4.6 has resolved the issues.
+
+- The site features easy navigation links at the top of each page which enable users to find each page easily.
+
+- You can click on the 'view tracklisting' button on toms_discs.html which will take you to a seperate wikipedia page with full details of each album.
+
+- There are social media buttons on each page that take you to Tom Waits social media accounts. They all open to a blank page.
+
+- The subscribe form has a subscribe button that will refresh the form once selected. 
 
 ## Technologies Used
 
@@ -90,7 +115,27 @@ I have used;
 
 - To test each HTML5 file I used https://validator.w3.org/ which provided me with where errors occured and helped me to pinpoint correcting them.
 
-- To test the CSS3 file I used https://jigsaw.w3.org/css-validator/ which provided me with where errors occured and helped me to pinpoint correcting them.
+- index.html validation screenshot
+
+ ![html validation](documentation/project_assets/tom_waits_index.html_validator.png)
+
+ - toms_discs.html validation screenshot
+
+ ![toms_discs](documentation/project_assets/toms_discs_html_checker.png)
+
+ - toms_live.html validation screenshot
+
+ ![toms_discs](documentation/project_assets/tom_live_html_validator.png)
+
+ - subscribe.html validation screenshot
+
+ ![subscribe](documentation/project_assets/tom_waits_subscribe.html_validator.png)
+
+- To test the CSS3 file I used the W3C CSS validation service
+
+ ![css](documentation/project_assets/css_validator.png)
+
+
 
 -After initial testing of the site there were 2 main issues in the responsiveness and the contrast on a lot of the body text. The body text was corrected by removing the opacity on all sections. To fix the responsiveness I used Bootstrap v4.6 to construct classes that would collapse or grow between smaller and larger devices.
 
@@ -115,6 +160,24 @@ I have used;
 
 ## Deployment
 
+- The site has been tested to check for a suitable user experience and here is evidence of how the site works on the following browsers.
+
+- The home page and how it looks on Google Chrome
+
+
+![Google Chrome](documentation/project_assets/home_page_in_google_chrome.png)
+
+
+
+- The home page and how it looks on Microsoft Edge
+
+![Microsoft Edge](documentation/project_assets/home_page_microsoft_edge.png)
+
+
+- The home page and how it looks on Firefox
+
+
+![Microsoft Edge](documentation/project_assets/home_page_firefox.png)
 
 ### GitHub Pages
 
@@ -156,7 +219,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Media
 
-- All images were taken from various locations across Google Chrome
+- All images were taken from various locations across Google Chrome. I have saved copies locally and also saved them to the repo in /workspace/Milestone1_Tom_Waits_Fansite/assets/images.
 
 ### Acknowledgements
 
